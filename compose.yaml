@@ -1,0 +1,12 @@
+services:  
+  demo1:        
+   # image: oldgitdocker/demo
+   # pull_policy: always   # Don't look for a local image always pull it
+    image: demo            # Image without a tag will be tagged :latest
+    build: 
+      context: .          # Where is the Dockerfile
+    container_name: demo1 
+    ports:
+      - 4000:3000 
+
+ 

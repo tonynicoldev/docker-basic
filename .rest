@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/tst/Tony?format=json
+
+###
+GET http://localhost:4000
+
+###
+GET http://localhost:4000/tst/Tony?format=json&limit=20
